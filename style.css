@@ -1,0 +1,198 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: #f3f3f3;
+}
+
+.container {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.img {
+    margin-top: 50px;
+    height: 100px;
+    width: 255px;
+    object-fit: cover;
+    background: transparent;
+}
+
+h2 {
+    padding: 0px 50px 0px 0px;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #1c1e21;
+}
+
+input {
+    height: 51.6px;
+    width: 336.6px;
+    padding: 14px 16px;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid #d1d1d1;
+    margin: 6px 0px;
+    caret-color: #0866ff;
+}
+
+input::placeholder {
+    color: #b4b4b4;
+}
+
+a {
+    text-decoration: none;
+}
+
+.log-in-area {
+    height: 500px;
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.log-in {
+    height: 348px;
+    padding: 20px 0px 28px;
+    width: 375px;
+    background: #ffffff;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+
+.text-area {
+    height: 500px;
+    width: 500px;
+
+}
+
+.submit {
+    font-size: 20px;
+    color: #ffffff;
+    background: #0866ff;
+    border-radius: 10px;
+    padding: 0px 16px;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+
+.forgotten {
+    display: block;
+    margin-top: 16px;
+    font-size: 14px;
+    color: #0866ff;
+}
+
+.button-box {
+    height: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    margin: 20px 16px;
+}
+
+.input:focus {
+    border: 1px solid #0866ff;
+}
+
+.button {
+    height: 48px;
+    font-size: 17px;
+    color: #ffffff;
+    background: #42b72a;
+    padding: 0px 14px;
+    font-weight: 600;
+    line-height: 48px;
+    border-radius: 6px;
+}
+
+.last {
+    width: 100%;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.span {
+    padding: 0px 5px;
+
+}
+
+@media only screen and (max-width:1080px) {
+
+    body {
+        align-items: start;
+    }
+
+    .container {
+        width: 400px;
+    }
+
+    h2.text {
+        width: 80%;
+        font-size: 20px;
+    }
+
+    .text-area {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 170px;
+        padding: 0px;
+    }
+
+    h2 {
+        padding: 0px;
+        width: 300px;
+    }
+
+    .img {
+        height: 80px;
+        margin-top: 0px;
+    }
+
+    .log-in {
+        height: 350px;
+        margin: 0px;
+    }
+
+    .log-in-area {
+        height: 450px;
+    }
+
+}
+
+@media only screen and (max-width:905px) {}
